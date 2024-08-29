@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    /* margin: 50px; */
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.left-img{
+    width: 539.22px;
+    height: 447.43px;
+    padding: 20px;
+}
+
+.title{
+    width: 500px;
+    height: 190px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 90px;
+    letter-spacing: -3.5%;
+    color: #333333;
+}
+
+.message{
+    width: 280px;
+    height: 108px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35.54px;
+    letter-spacing: -3.5%;
+    color: #4f4f4f;
+    margin-bottom: 50px;
+
+}
+  
+
+    /* top: 491px;
+    left: 736px;
+} */
+
+.error{
+    margin-top: 5px;
+    margin-left: 50px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -8%;
+    width: 233px;
+    height: 25px;
+
+}
+
+#sec-box {
+    padding: 20px;
+}
+
+.btn {
+    /* margin-top: 80px; */
+    width: 200px;
+    height: 68px;
+    background-color: #333333;
+    color: white;
+}
+
+#footer {
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+#username {
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 600px) {
+    .left-img{
+        width: 380px;
+        height: 336px;
+        /* padding: 20px; */
+        margin: 20px;
+    }
+
+    .container{
+        flex-direction: column;
+        /* margin: 50px; */
+        margin-top: 30px;
+        /* padding: 20px; */
+    }
+
+    .error{
+        margin-top: 5px;
+        margin-left: 50px;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: -8%;
+        width: 433px;
+        height: 25px;
+        text-align: center;
+    
+    }
+
+    .title{
+        width: 350px;
+        height: 190px;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 70px;
+        letter-spacing: -3.5%;
+        color: #333333;
+    }
+
+    .message{
+        width: 380px;
+        height: 100px;
+        font-family: "Space Mono", monospace;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: -3.5%;
+        color: #4f4f4f;
+        /* margin-bottom: 10px; */
+    
+    }
+
+    #footer {
+        text-align: center;
+        /* margin-top: px; */
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        /* padding:20px ; */
+    }
+    
+}
